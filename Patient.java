@@ -56,7 +56,7 @@ public class Patient {
 	}
 	
 	
-	
+	// Accessor methods
 	public String getFirstName(){
 		return firstName;
 	}
@@ -99,7 +99,7 @@ public class Patient {
 	
 	
 	
-	
+	// Mutator methods
 	public void setFirstName(String newFirstName) {
 		firstName = newFirstName;
 	}
@@ -141,7 +141,7 @@ public class Patient {
 	}
 	
 	
-	
+	// Concatenation methods
 	public String buildFullName() {
 		return firstName + " " + middleName + " " + lastName;
 	}
